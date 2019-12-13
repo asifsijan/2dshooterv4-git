@@ -5,7 +5,6 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
 
-    
     public float speed;
     private Rigidbody2D rb; //contains unitys physics
 
