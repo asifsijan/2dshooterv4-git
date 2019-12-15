@@ -1075,8 +1075,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1059313012}
   - component: {fileID: 1059313013}
+  - component: {fileID: 1059313014}
   m_Layer: 0
-  m_Name: Knight_jumpAttack
+  m_Name: Knight_walking
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1090,8 +1091,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1059313011}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -14.836, y: -0.991, z: 0.09831752}
-  m_LocalScale: {x: 2.9604456, y: 3.733444, z: 1}
+  m_LocalPosition: {x: -14.07, y: -0.798, z: 0.09831752}
+  m_LocalScale: {x: 3.0861058, y: 4.2605023, z: 1}
   m_Children: []
   m_Father: {fileID: 308202956}
   m_RootOrder: 0
@@ -1144,6 +1145,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1059313014
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1059313011}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9b1014114e4fc9d40ae872c0bb541657, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1254663798
 GameObject:
   m_ObjectHideFlags: 0
@@ -1411,7 +1431,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1506042348}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.033, y: 0.072, z: 0}
+  m_LocalPosition: {x: 1.12, y: 1.65, z: 0}
   m_LocalScale: {x: 1.6512959, y: 1.4914261, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1621,10 +1641,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1821548794}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10024fbb1432f29459d9449e08a31840, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c8cc7d8175781444a5e186bee10b141, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 3
 --- !u!50 &1821548799
 Rigidbody2D:
   serializedVersion: 4
