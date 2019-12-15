@@ -7,7 +7,7 @@ public class Enemy : MonoBehaviour
 
     public int health;
 
-    [HideInInspector]
+  [HideInInspector]
     public Transform player;
 
 
