@@ -9,7 +9,16 @@ public class Enemy : MonoBehaviour
 
     [HideInInspector]
     public Transform player;
+
+
+
     public float speed;
+
+    public float timeBetweenAttacks;
+
+    public int damage;
+
+
     // Start is called before the first frame update
     void Start()
     {

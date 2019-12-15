@@ -8,8 +8,10 @@ public class Player : MonoBehaviour
     public float speed;
     private Rigidbody2D rb; //contains unitys physics
 
-    private Animator anim; 
-  
+    private Animator anim;
+    public float health;
+
+
     private Vector2 moveAmount;
   // determines game's start 
     private void Start() {
@@ -38,7 +40,14 @@ public class Player : MonoBehaviour
     }
 
 
-
+    public void TakeDamage(int damageAmount)
+    {
+        health -= damageAmount;
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
 
 
 
