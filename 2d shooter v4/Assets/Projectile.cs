@@ -30,9 +30,9 @@ public class Projectile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "King_attack")
+        if (collision.tag == "Enemy")
         {
-            collision.GetComponent<King_attack>().TakeDamage(damageAmount);
+            collision.GetComponent<Enemy>().TakeDamage(damageAmount);
             DestroyProjectile();
         }
     }
