@@ -11,7 +11,9 @@ public class Player : MonoBehaviour
     private Animator anim; 
   
     private Vector2 moveAmount;
-  // determines game's start 
+
+    public float health;
+
     private void Start() {
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
@@ -38,10 +40,13 @@ public class Player : MonoBehaviour
     }
 
 
+    public void TakeDamage(int damageAmount)
+    {
+        health -= damageAmount;
 
-
-
-
-
-
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
 }
