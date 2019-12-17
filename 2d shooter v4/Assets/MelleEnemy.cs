@@ -6,6 +6,7 @@ public class MelleEnemy : Enemy
 {
     public float stopDistance;
 
+    private float AttackTime;
  
     private void Update()
     {
@@ -14,6 +15,13 @@ public class MelleEnemy : Enemy
             if(Vector2.Distance(transform.position, player.position) > stopDistance)
             {
                 transform.position = Vector2.MoveTowards(transform.position, player.position , speed * Time.deltaTime);
+            }
+            else
+            {
+                if(Time.time >= AttackTime)
+                {
+                    AttackTime = Time.time + timeBetweenAttacks;
+                }
             }
         }
     }

@@ -10,7 +10,9 @@ public class Enemy : MonoBehaviour
     [HideInInspector]
     public Transform player;
 
-    public float speed ;
+    public float speed;
+
+    public float timeBetweenAttacks;
 
     private void Start()
     {
