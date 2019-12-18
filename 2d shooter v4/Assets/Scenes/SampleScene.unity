@@ -198,7 +198,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 409805288}
   m_LocalRotation: {x: -0, y: -0, z: 0.11188658, w: 0.99372107}
-  m_LocalPosition: {x: -0.132, y: 0.86, z: 0}
+  m_LocalPosition: {x: -0.19, y: 0.88, z: 0}
   m_LocalScale: {x: 0.7070325, y: 0.8561109, z: 1}
   m_Children: []
   m_Father: {fileID: 1821548795}
@@ -1181,7 +1181,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1059313011}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -14.4, y: -0.297, z: 0.09831752}
+  m_LocalPosition: {x: -14.53, y: 1.7, z: 0.09831752}
   m_LocalScale: {x: 2.978092, y: 4.0048723, z: 1}
   m_Children: []
   m_Father: {fileID: 308202956}
@@ -1427,7 +1427,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1457449743}
   m_Layer: 0
-  m_Name: King_Attack
+  m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1631,7 +1631,7 @@ GameObject:
   - component: {fileID: 1821548799}
   m_Layer: 0
   m_Name: body upper
-  m_TagString: King_attack
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1644,7 +1644,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1821548794}
   m_LocalRotation: {x: -0, y: -0, z: -0.11188658, w: 0.99372107}
-  m_LocalPosition: {x: -0.896, y: -3.023, z: 0.2467894}
+  m_LocalPosition: {x: 2.57, y: -0.71, z: 0.2467894}
   m_LocalScale: {x: 2.4019883, y: 2.257242, z: 1}
   m_Children:
   - {fileID: 409805289}
@@ -1766,7 +1766,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0.23682398, y: 0.43712246}
   m_SpriteTilingProperty:
