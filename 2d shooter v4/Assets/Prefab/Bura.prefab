@@ -680,6 +680,8 @@ MonoBehaviour:
   speed: 4
   timeBetweenAttacks: 3
   damage: 1
+  deathEffect: {fileID: 7497316930429888653, guid: 1d1c03c01e0a70c46af011d38d0a00b8,
+    type: 3}
   stopDistance: 6
   attackSpeed: 3
 --- !u!1 &6233446507832586239

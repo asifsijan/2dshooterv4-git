@@ -13,6 +13,12 @@ public class Player : MonoBehaviour
     public float health;
     public Slider healthBar;
 
+
+    public Animator hurtAnim;
+
+
+
+
     private Vector2 moveAmount;
   // determines game's start 
     private void Start() {
@@ -45,6 +51,7 @@ public class Player : MonoBehaviour
     public void TakeDamage(int damageAmount)
     {
         health -= damageAmount;
+        hurtAnim.SetTrigger("hurt");
         if (health <= 0)
         {
             Destroy(gameObject);
