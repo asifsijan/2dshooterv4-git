@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -10,7 +11,7 @@ public class Player : MonoBehaviour
 
     private Animator anim;
     public float health;
-
+    public Slider healthBar;
 
     private Vector2 moveAmount;
   // determines game's start 
@@ -31,6 +32,7 @@ public class Player : MonoBehaviour
         {
             anim.SetBool("isRunning", false);
         }
+        healthBar.value = health;
 
     }
 

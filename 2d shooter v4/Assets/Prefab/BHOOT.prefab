@@ -603,7 +603,7 @@ MonoBehaviour:
   speed: 8
   timeBetweenAttacks: 1
   damage: 1
-  stopDistance: 1
+  stopDistance: 6
   attackSpeed: 5
 --- !u!1 &5336684309415512135
 GameObject:

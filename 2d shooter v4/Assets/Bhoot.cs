@@ -44,7 +44,7 @@ public class Bhoot : Enemy
         player.GetComponent<Player>().TakeDamage(damage);
 
         Vector2 originalPosition = transform.position;
-        Vector2 targetPosition = player.position + new Vector3(-1.0f, 2.5f, 0.0f);
+        Vector2 targetPosition = player.position;
 
         float percent = 0f;
         while (percent <= 1)
