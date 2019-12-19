@@ -1572,7 +1572,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 249721847}
-  speed: 0.2
+  speed: 1
   minX: -11
   maxX: 8
   minY: -10
