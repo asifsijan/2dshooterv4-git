@@ -570,6 +570,7 @@ PlayerSettings:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled:
+    Collab: 1
     UNet: 1
   luminIcon:
     m_Name: 
@@ -590,10 +591,10 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 2
-  cloudProjectId: 
+  cloudProjectId: b891741d-2916-47d4-be0c-6c12da0ac863
   framebufferDepthMemorylessMode: 0
-  projectName: 
-  organizationId: 
+  projectName: 2d shooter v4
+  organizationId: raridoy
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
