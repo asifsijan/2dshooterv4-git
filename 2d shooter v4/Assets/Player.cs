@@ -15,9 +15,12 @@ public class Player : MonoBehaviour
 
 
     public Animator hurtAnim;
+    //
+    public float dashSpeed;
 
+    public float dashTime;
 
-
+    public GameObject dashEffect;
 
     private Vector2 moveAmount;
   // determines game's start 
@@ -39,6 +42,11 @@ public class Player : MonoBehaviour
             anim.SetBool("isRunning", false);
         }
         healthBar.value = health;
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Instantiate(dashEffect, transform.position, Quaternion.identity);
+            StartCoroutine("DashMove");
+        }
 
     }
 
@@ -58,7 +66,12 @@ public class Player : MonoBehaviour
         }
     }
 
-
+    IEnumerator DashMove()
+    {
+        speed = speed + dashSpeed;
+        yield return new WaitForSeconds(dashTime);
+        speed = speed - dashSpeed;
+    }
 
 
 
