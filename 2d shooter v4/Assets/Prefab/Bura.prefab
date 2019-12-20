@@ -675,10 +675,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc7ecf47ec1519a4d906089162d56e9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1
+  health: 4
   player: {fileID: 0}
-  speed: 4
-  timeBetweenAttacks: 3
+  speed: 8.24
+  timeBetweenAttacks: 1.62
   damage: 1
   deathEffect: {fileID: 7497316930429888653, guid: 1d1c03c01e0a70c46af011d38d0a00b8,
     type: 3}

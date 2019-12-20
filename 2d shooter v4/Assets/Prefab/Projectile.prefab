@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 7718441899648818364}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.94, y: 1.082, z: 0}
-  m_LocalScale: {x: 0.62146795, y: 0.41952518, z: 1}
+  m_LocalScale: {x: 0.22497761, y: 0.1518723, z: 0.36201}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -97,7 +97,7 @@ MonoBehaviour:
   explosion: {fileID: 1278334126471221237, guid: 5d6d062e4c4b027499d88272cf296ef8,
     type: 3}
   speed: 40
-  lifeTime: 0.3
+  lifeTime: 0.59
   damage: 1
 --- !u!61 &61946866096280100
 BoxCollider2D:
