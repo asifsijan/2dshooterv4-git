@@ -21,6 +21,8 @@ public class Player : MonoBehaviour
     public float dashTime;
 
     public GameObject dashEffect;
+    public GameObject deathEffect;
+
 
     private Vector2 moveAmount;
   // determines game's start 
@@ -62,7 +64,9 @@ public class Player : MonoBehaviour
         hurtAnim.SetTrigger("hurt");
         if (health <= 0)
         {
+            Instantiate(deathEffect, transform.position, Quaternion.identity);
             Destroy(gameObject);
+            
         }
     }
 
