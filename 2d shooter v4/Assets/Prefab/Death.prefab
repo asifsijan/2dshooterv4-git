@@ -3881,11 +3881,7 @@ ParticleSystem:
         m_RotationOrder: 4
     maxLights: 20
   TrailModule:
-<<<<<<< Updated upstream
     enabled: 1
-=======
-    enabled: 0
->>>>>>> Stashed changes
     mode: 0
     ratio: 1
     lifetime:
@@ -4717,11 +4713,7 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-<<<<<<< Updated upstream
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-=======
-  - {fileID: 0}
->>>>>>> Stashed changes
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
