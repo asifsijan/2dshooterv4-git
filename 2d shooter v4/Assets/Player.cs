@@ -15,6 +15,7 @@ public class Player : MonoBehaviour
 
 
     public Animator hurtAnim;
+<<<<<<< Updated upstream
     //
     public float dashSpeed;
 
@@ -22,6 +23,10 @@ public class Player : MonoBehaviour
 
     public GameObject dashEffect;
     public GameObject deathEffect;
+=======
+
+
+>>>>>>> Stashed changes
 
 
     private Vector2 moveAmount;
@@ -44,11 +49,14 @@ public class Player : MonoBehaviour
             anim.SetBool("isRunning", false);
         }
         healthBar.value = health;
+<<<<<<< Updated upstream
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Instantiate(dashEffect, transform.position, Quaternion.identity);
             StartCoroutine("DashMove");
         }
+=======
+>>>>>>> Stashed changes
 
     }
 
@@ -64,6 +72,7 @@ public class Player : MonoBehaviour
         hurtAnim.SetTrigger("hurt");
         if (health <= 0)
         {
+<<<<<<< Updated upstream
             Instantiate(deathEffect, transform.position, Quaternion.identity);
             Destroy(gameObject);
             
@@ -76,6 +85,13 @@ public class Player : MonoBehaviour
         yield return new WaitForSeconds(dashTime);
         speed = speed - dashSpeed;
     }
+=======
+            Destroy(gameObject);
+        }
+    }
+
+
+>>>>>>> Stashed changes
 
 
 
